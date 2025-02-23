@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeevan Kumar Katiyar</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="gradient-background">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle-btn">
+      <span class="toggle-icon">🌞</span>
+    </button>
+
+    <!-- Home/Landing Page -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="animated-heading">
+            <span id="greeting" class="dynamic-greeting">Hello</span>
+            <span class="dynamic-text">Jeevan Kumar Katiyar</span>
+          </h1>
+          <h2 id="intro">
+            Hi, I'm <span class="dynamic-text">Jeevan Kumar Katiyar</span>
+            <span class="dynamic-text">Software Developer</span>
+          </h2>
+          <p class="tagline">
+            Creating innovative solutions for a better tomorrow.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/jeevan-kumar-katiyar-a40382239"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/Jeevan_Katiyar" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://github.com/JeevanKatiyar" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <a
+            href="assets/JEEVAN-FRONTEND_DEVELOPER.pdf"
+            class="btn btn-primary"
+            download
+            >Download Resume</a
+          >
+        </div>
+      </div>
+      <div class="background-animation"></div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="bg-light">
+      <div class="container">
+        <h2>Timeline</h2>
+        <ul class="timeline">
+          <li data-aos="fade-up" class="timeline-item">
+            <div class="timeline-content">
+              <h3>Graduation</h3>
+              <p>Bachelor of Computer Application, Osmania University</p>
+            </div>
+          </li>
+          <li data-aos="fade-up" class="timeline-item">
+            <div class="timeline-content">
+              <h3>Masters</h3>
+              <p>
+                Master of Computer Application, Vellore Institute of Technology
+              </p>
+            </div>
+          </li>
+          <li data-aos="fade-up" class="timeline-item">
+            <div class="timeline-content">
+              <h3>Experience</h3>
+              <p>Freelancer Web Developer, 2024 - Present</p>
+            </div>
+          </li>
+          <!-- Add more timeline items as needed -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="row">
+          <!-- Frontend Skills Card -->
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="skill-category-card">
+              <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <img src="assets/icons/html5.svg" alt="HTML5" />
+                  <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/css.svg" alt="CSS3" />
+                  <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/javascript.svg" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/typescript.svg" alt="TypeScript" />
+                  <span>TypeScript</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/react.svg" alt="React" />
+                  <span>React</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/nextdotjs.svg" alt="Next.js" />
+                  <span>Next.js</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/tailwindcss.svg" alt="Tailwind CSS" />
+                  <span>Tailwind CSS</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/bootstrap.svg" alt="Tailwind CSS" />
+                  <span>Bootstrap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Skills Card -->
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="skill-category-card">
+              <h3><i class="fas fa-server"></i> Backend Development</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <img src="assets/icons/nodedotjs.svg" alt="Node.js" />
+                  <span>Node.js</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/express.svg" alt="Express.js" />
+                  <span>Express.js</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/mongodb.svg" alt="MongoDB" />
+                  <span>MongoDB</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/mongoose.svg" alt="Mongoose" />
+                  <span>Mongoose</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/firebase.svg" alt="Firebase" />
+                  <span>Firebase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional Tools & Technologies -->
+          <div class="col-md-12" data-aos="fade-up">
+            <div class="skill-category-card">
+              <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <img src="assets/icons/git.svg" alt="Git" />
+                  <span>Git</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/github.svg" alt="GitHub" />
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-item">
+                  <img
+                    src="assets/icons/vscode-fill-svgrepo-com.svg"
+                    alt="VS Code"
+                  />
+                  <span>VS Code</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/icons/figma.svg" alt="Figma" />
+                  <span>Figma</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Works Section -->
+    <section id="projects" class="bg-light" data-aos="fade-up">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="filter-buttons">
+          <button class="btn btn-secondary" data-filter="all">All</button>
+          <button class="btn btn-secondary" data-filter="web">Web</button>
+          <button class="btn btn-secondary" data-filter="ai">AI</button>
+
+          <!-- Add more categories as needed -->
+        </div>
+        <div class="row project-cards">
+          <div class="col-md-4 project-card" data-category="web">
+            <div class="card" data-toggle="modal" data-target="#projectModal1">
+              <img
+                src="assets/image/portfolio.png"
+                class="card-img-top"
+                alt="Project Preview"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Portfolio Website</h5>
+                <p class="card-text">
+                  A personal portfolio website to showcase my projects and
+                  skills.
+                </p>
+                <!-- <a
+                  href="https://github.com/JeevanKatiyar/portfolio"
+                  target="_blank"
+                  class="btn btn-link"
+                  >Source Code</a
+                > -->
+                <a
+                  href="https://your-portfolio-link.com"
+                  target="_blank"
+                  class="btn btn-link"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 project-card" data-category="ai">
+            <div class="card" data-toggle="modal" data-target="#projectModal2">
+              <img
+                src="assets/image/genie ai.png"
+                class="card-img-top"
+                alt="Project Preview"
+              />
+              <div class="card-body">
+                <h5 class="card-title">GenieAI</h5>
+                <p class="card-text">
+                  An AI project that demonstrates machine learning capabilities.
+                </p>
+                <!-- <a
+                  href="https://github.com/JeevanKatiyar/ai-project"
+                  target="_blank"
+                  class="btn btn-link"
+                  >Source Code</a
+                > -->
+                <a
+                  href="https://your-ai-project-link.com"
+                  target="_blank"
+                  class="btn btn-link"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 project-card" data-category="web">
+            <div class="card" data-toggle="modal" data-target="#projectModal3">
+              <img
+                src="assets/image/littlelemon.png"
+                class="card-img-top"
+                alt="Project Preview"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Little Lemon</h5>
+                <p class="card-text">
+                  Food ordering website for a restaurant (Capstone project for
+                  meta certification).
+                </p>
+                <!-- <a
+                  href="https://github.com/JeevanKatiyar/e-commerce"
+                  target="_blank"
+                  class="btn btn-link"
+                  >Source Code</a
+                > -->
+                <a
+                  href="https://your-e-commerce-link.com"
+                  target="_blank"
+                  class="btn btn-link"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for more projects -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div
+      class="modal fade"
+      id="projectModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="projectModalLabel1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel1">Portfolio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            A fully responsive and visually stunning portfolio website
+            showcasing my skills, experience, and projects. Built with modern
+            web technologies, it features smooth animations, an interactive UI,
+            a dark/light mode toggle, and seamless navigation for an enhanced
+            user experience.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="projectModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="projectModalLabel2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel2">GenieAI</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            GenieAI is an interactive AI chatbot built using React (frontend)
+            and Node.js (backend) that allows users to ask any question and
+            receive intelligent responses. Powered by OpenAI's API, GenieAI can
+            generate answers, summaries, and insights in real-time.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="projectModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="projectModalLabel3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel3">Little Lemon</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Developed as part of Meta's Coursera Front-End Development course,
+            this project showcases a fully responsive booking application for
+            the Little Lemon restaurant. Built using React.js, it demonstrates
+            expertise in component-based architecture, API integration, and
+            modern UI/UX design.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:jeevankatiyar02@gmail.com"
+              >jeevankatiyar02@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" onsubmit="return sendEmail(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">
+              <span>Send Message</span>
+            </button>
+            <div
+              id="success-message"
+              class="alert alert-success mt-3"
+              style="display: none"
+            >
+              Message sent successfully!
+            </div>
+            <div
+              id="error-message"
+              class="alert alert-danger mt-3"
+              style="display: none"
+            >
+              Failed to send message. Please try again.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2023 Jeevan Kumar Katiyar. All rights reserved.</p>
+          <div class="footer-social-links">
+            <a
+              href="https://www.linkedin.com/in/jeevan-kumar-katiyar-a40382239"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/Jeevan_Katiyar" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://github.com/JeevanKatiyar" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("YOUR_USER_ID"); // Replace 'YOUR_USER_ID' with your actual EmailJS user ID
+      })();
+    </script>
+    <script type="text/javascript">
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          // These IDs from the previous steps
+          emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this).then(
+            function () {
+              alert("Message sent successfully!");
+            },
+            function (error) {
+              alert("Failed to send message. Please try again later.");
+            }
+          );
+        });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section");
+
+        const observerOptions = {
+          threshold: 0.1,
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+
+        sections.forEach((section) => {
+          observer.observe(section);
+        });
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // Animation duration
+        easing: "ease-in-out", // Animation easing
+        once: true, // Whether animation should happen only once
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggleButton = document.getElementById("theme-toggle");
+        const toggleIcon = toggleButton.querySelector(".toggle-icon");
+
+        toggleButton.addEventListener("click", () => {
+          document.body.classList.toggle("dark-mode");
+          toggleIcon.textContent = document.body.classList.contains("dark-mode")
+            ? "🌙"
+            : "🌞";
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const dynamicTexts = document.querySelectorAll(".dynamic-text");
+        const texts = ["Jeevan Kumar Katiyar", "Software Developer"];
+        let index = 0;
+
+        function typeText() {
+          dynamicTexts.forEach((element, i) => {
+            element.textContent = texts[i];
+          });
+        }
+
+        typeText();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const progressCircles = document.querySelectorAll(".progress-circle");
+
+        progressCircles.forEach((circle) => {
+          const progress = circle.getAttribute("data-progress");
+          circle.style.setProperty("--progress", progress);
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".filter-buttons .btn");
+        const projectCards = document.querySelectorAll(".project-card");
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const filter = this.getAttribute("data-filter");
+
+            projectCards.forEach((card) => {
+              if (
+                filter === "all" ||
+                card.getAttribute("data-category") === filter
+              ) {
+                card.style.display = "block";
+              } else {
+                card.style.display = "none";
+              }
+            });
+          });
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const timelineItems = document.querySelectorAll(".timeline-item");
+
+        const observerOptions = {
+          threshold: 0.1,
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+
+        timelineItems.forEach((item) => {
+          observer.observe(item);
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const formControls = document.querySelectorAll(".form-control");
+
+        formControls.forEach((control) => {
+          control.addEventListener("focus", () => {
+            control.parentElement.classList.add("focused");
+          });
+
+          control.addEventListener("blur", () => {
+            if (!control.value) {
+              control.parentElement.classList.remove("focused");
+            }
+          });
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("contact-form");
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const messageInput = document.getElementById("message");
+
+        function validateInput(input, regex) {
+          if (!regex.test(input.value)) {
+            input.classList.add("error");
+            return false;
+          } else {
+            input.classList.remove("error");
+            return true;
+          }
+        }
+
+        nameInput.addEventListener("input", () => {
+          validateInput(nameInput, /^[a-zA-Z\s]+$/);
+        });
+
+        emailInput.addEventListener("input", () => {
+          validateInput(emailInput, /^[^\s@]+@[^\s@]+\.[^\s@]+$/);
+        });
+
+        messageInput.addEventListener("input", () => {
+          validateInput(messageInput, /.+/);
+        });
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+          const isNameValid = validateInput(nameInput, /^[a-zA-Z\s]+$/);
+          const isEmailValid = validateInput(
+            emailInput,
+            /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+          );
+          const isMessageValid = validateInput(messageInput, /.+/);
+
+          if (isNameValid && isEmailValid && isMessageValid) {
+            // Submit the form or perform the desired action
+            alert("Form submitted successfully!");
+          } else {
+            alert("Please correct the errors in the form.");
+          }
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const elements = document.querySelectorAll(
+          ".timeline-item, .skill-card, .project-card"
+        );
+
+        const observerOptions = {
+          threshold: 0.1,
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+
+        elements.forEach((element) => {
+          observer.observe(element);
+        });
+      });
+    </script>
+    <script>
+      window.addEventListener("load", function () {
+        const preloader = document.getElementById("preloader");
+        preloader.style.opacity = "0";
+        preloader.style.visibility = "hidden";
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const greetings = [
+          "Hello", // English
+          "नमस्ते", // Hindi
+          "Hola", // Spanish
+          "Bonjour", // French
+          "Hallo", // German
+          "Ciao", // Italian
+          "Olá", // Portuguese
+          "Здравствуйте", // Russian
+          "你好", // Chinese
+          "こんにちは", // Japanese
+          "مرحبا", // Arabic
+          // Add more languages as needed
+        ];
+
+        const greetingElement = document.getElementById("greeting");
+        let greetingIndex = 0;
+
+        function updateGreeting() {
+          greetingElement.textContent = greetings[greetingIndex];
+          greetingIndex = (greetingIndex + 1) % greetings.length;
+        }
+
+        setInterval(updateGreeting, 1000); // Change greeting every 1 second
+      });
+    </script>
+  </body>
+</html>
